@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\eclipse-workspace\checkpoint01-anderson\.metadata\.plugins\org.eclipse.jdt.core
+617130467.index
+2101079657.index

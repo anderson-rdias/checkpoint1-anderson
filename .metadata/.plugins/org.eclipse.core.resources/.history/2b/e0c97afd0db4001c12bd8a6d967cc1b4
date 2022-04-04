@@ -1,0 +1,40 @@
+package br.com.fiap.jpa.dao;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+public class HibernateGenericDAO <T extends Serializable, PK extends Serializable> implements GenericDAO<T, PK>{
+
+	@Override
+	public void inserir(T instancia, EntityManager entityManager) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizar(T instancia, EntityManager entityManager) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remover(PK id, EntityManager entityManager) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public T obterPorId(PK id, EntityManager entityManager) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<T> listar(EntityManager entityManager) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
